@@ -1,0 +1,114 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Chat Assistant Panel */
+#chat-assistant-panel {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+#chat-history {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+#chat-input {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+}
+
+#send-message {
+    width: 100%;
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#send-message:hover {
+    background-color: #0056b3;
+}
+
+/* Main Content */
+#main-content {
+    margin-left: 300px;
+    padding: 20px;
+}
+
+/* GPT Leaderboard Panel */
+#gpt-leaderboard-panel, #gpt-directories-panel {
+    margin-bottom: 20px;
+}
+
+.gpt-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Voting Buttons */
+.voting {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.vote-up, .vote-down {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 16px;
+}
+
+.vote-count {
+    margin: 0 10px;
+}
+
+/* Social Sharing Buttons */
+.social-share button {
+    margin-right: 5px;
+    padding: 6px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.social-share button:hover {
+    background-color: #0056b3;
+}
+
+/* User Login Form */
+#login-form {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 300px;
+    border-left: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+#login-form input[type=email], #login-form input[type=password], #login-form button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
