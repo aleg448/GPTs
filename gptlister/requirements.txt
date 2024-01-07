@@ -1,1 +1,5 @@
 Flask==2.1.1
+Werkzeug==2.0.3  # Compatible with Flask 2.1.1
+Jinja2>=3.0      # Ensure compatible version of Jinja2
+click>=8.0       # Ensure compatible version of click
+itsdangerous>=2.0  # Ensure compatible version of itsdangerous
