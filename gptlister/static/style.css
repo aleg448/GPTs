@@ -1,10 +1,15 @@
 /* General Styles for Vaporwave Aesthetic */
 body {
     font-family: 'Courier New', monospace;
-    background-color: #e0aaff; /* Pastel purple background */
     color: #ffffff; /* White text for contrast */
     margin: 0;
     padding: 0;
+
+    /* Set the background image, replacing the pastel purple background color */
+    background-image: url('/static/vaporwave.png');
+    background-size: cover;  /* Cover the entire page */
+    background-repeat: no-repeat;  /* Prevent repeating the image */
+    background-attachment: fixed;  /* Fixed background when scrolling */
 }
 
 header {
@@ -34,7 +39,7 @@ nav ul li {
 nav ul li a {
     color: #250902; /* Deep contrast for links */
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.8em;
 }
 
 main {
@@ -48,6 +53,11 @@ main {
     margin: 10px;
     color: #250902;
     text-decoration: none;
+    text-shadow:
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+     -1px 1px 0 #fff,
+     1px 1px 0 #fff;
 }
 
 .home-section img {
@@ -86,8 +96,13 @@ main {
 }
 .link-description {
     color: #000000; /* Black color for the description */
-    font-size: 0.8em; /* Keep the smaller font size for description */
+    font-size: 1.3em; /* Keep the smaller font size for description */
     margin-top: 5px; /* Maintain spacing between title and description */
+    text-shadow:
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+     -1px 1px 0 #fff,
+     1px 1px 0 #fff;
 }
 
 /* Responsive Design */

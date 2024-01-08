@@ -9,7 +9,7 @@ app.config['SERVER_NAME'] = 'gptlister.com'
 def home():
     return render_template('index.html', content_type='home')
 
-@app.route('/', subdomain='pleistos')
+@app.route('/pleistos')
 def about():
     return render_template('index.html', content_type='about')
 
